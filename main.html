@@ -8,20 +8,20 @@
 
 <body>
 	<form>
-		<label>Name:</label>
-		<input id="name"type="text" placeholder="name">
+		<label for="name">Name:</label>
+		<input id="name"type="text" placeholder="name" required>
 		<br>
 		<br>
-		<label>Email<sup>*</sup>:</label>
-		<input id="email" type="email" placeholder="Email">
+		<label for="email">Email<sup>*</sup>:</label>
+		<input id="email" type="email" placeholder="Email" required>
 		<br>
 		<br>
-		<label>Gender<sup>*</sup>:</label>
-		<input type="radio" name="gender">
-		<input type="radio" name="gender">
+		<label for="gender">Gender<sup>*</sup>:</label>
+		<input type="radio" name="gender" required>
+		<input type="radio" name="gender" required>
 		<br>
 		<br>
-		<label>Car Brands:</label>
+		<label for="cars">Car Brands:</label>
 		<select id="cars">
 			<option>BMW</option>
 			<option>Audi</option>
@@ -29,19 +29,19 @@
 		</select>
 		<br>
 		<br>
-		<label>Car Age<sup>*</sup>:</label>
-		<input type="number" id="carage" placeholder="car age">
+		<label for="carage">Car Age<sup>*</sup>:</label>
+		<input type="number" id="carage" placeholder="car age" required>
 		<br>
 		<br>
-		<label>Date of Purchase<sup>*</sup>:</label>
-		<input type="date" id="dop" placeholder="dop">
+		<label for="dop">Date of Purchase<sup>*</sup>:</label>
+		<input type="date" id="dop" placeholder="dop" required>
 		<br>
 		<br>
-		<label>Password<sup>*</sup>:</label>
-		<input type="password" id="password" placeholder="password">
+		<label for="password">Password<sup>*</sup>:</label>
+		<input type="password" id="password" placeholder="password" required>
 		<br>
 		<br>
-		<input type="submit" id="submit" placeholder="submit">
+		<input type="submit" id="submit" placeholder="submit" required>
 		
 	</form>
 	<!-- the entire body must be written by student -->
